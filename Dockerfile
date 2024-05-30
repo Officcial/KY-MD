@@ -4,10 +4,10 @@ RUN git clone https://github.com/Officcial/KY-MD.git /root/Officcial
 
 # Clear npm cache and remove node_modules directories
 RUN npm cache clean --force
-RUN rm -rf /root/Officcial/node_modules
+RUN rm -rf /root/Itxxwasi/node_modules
 
 # Install dependencies
-WORKDIR /root/Officcial
+WORKDIR /root/Itxxwasi
 RUN npm install
 
 # Add additional Steps To Run...
